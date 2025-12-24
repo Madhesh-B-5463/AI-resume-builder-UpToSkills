@@ -257,37 +257,6 @@ function LandingPage() {
             </div>
           </div>
         </div>
-
-        {/* Category Buttons */}
-        <div className="category-buttons">
-          <button
-            className={`category-btn ${
-              selectedCategory === "students" ? "active" : ""
-            }`}
-            onClick={() => setSelectedCategory("students")}
-          >
-            <i className="fas fa-graduation-cap"></i>
-            For Students
-          </button>
-          <button
-            className={`category-btn ${
-              selectedCategory === "hr" ? "active" : ""
-            }`}
-            onClick={() => setSelectedCategory("hr")}
-          >
-            <i className="fas fa-users"></i>
-            For HR Teams
-          </button>
-          <button
-            className={`category-btn ${
-              selectedCategory === "faculty" ? "active" : ""
-            }`}
-            onClick={() => setSelectedCategory("faculty")}
-          >
-            <i className="fas fa-chalkboard-teacher"></i>
-            For Faculty
-          </button>
-        </div>
       </section>
 
       {/* Trusted Companies Section */}
